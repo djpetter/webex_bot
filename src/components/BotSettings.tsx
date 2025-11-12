@@ -5,7 +5,7 @@ import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { Alert, AlertDescription } from './ui/alert';
 import { Save, Eye, EyeOff, CheckCircle2, InfoIcon, Settings } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface BotSettingsProps {
   botToken: string;
